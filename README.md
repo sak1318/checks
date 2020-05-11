@@ -1,4 +1,4 @@
-# TradeBot
+# TradeBot - Ananta
 ## Description
 
 
@@ -33,3 +33,12 @@
 ## Implementation Details
 #### Architecture
 ![Architecture](/Ananta_architecture.png) 
+
+**Alphavantage API:** I have used aplhavantage api for extracting historical stock data and technical indicators required for strategies
+
+**Arctic:** This is a database for time series which sits on top of the MongoDB. This is designed by ManAHL data engineers team. This data base suited for efficient time series data querying.
+
+**Strategies** I have written two simple strategies for this bot. (These strategies are not back date tested for making money on so beware before using the bot :) ).
+
+**Aplaca API** Alpaca is the 
+ 
