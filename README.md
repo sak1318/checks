@@ -1,10 +1,10 @@
 # TradeBot
-##Description
+## Description
 
 
 
 
-##Steps to run the bot
+## Steps to run the bot
 
 1. Clone the git hub repo
 2. Install MongoDB 
@@ -30,6 +30,6 @@
 7. 15 minutes before market closes, run close_orders.py. This will close all the orders and populate the profit/loss page of the website.
 8. Check the website on for summary of orders and profit/loss.
 
-##Implementation Details
-####Architecture
+## Implementation Details
+#### Architecture
 ![Architecture](/Ananta_architecture.png) 
