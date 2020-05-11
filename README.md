@@ -31,7 +31,7 @@
 8. Check the website on for summary of orders and profit/loss.
 
 ## Implementation Details
-#### Architecture
+### Architecture
 ![Architecture](/Ananta_architecture.png) 
 
 **Alphavantage API:** I have used aplhavantage api for extracting historical stock data and technical indicators required for strategies
