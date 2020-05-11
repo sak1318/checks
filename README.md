@@ -38,7 +38,8 @@
 
 **Arctic:** This is a database for time series which sits on top of the MongoDB. This is designed by ManAHL data engineers team. This data base suited for efficient time series data querying.
 
-**Strategies** I have written two simple strategies for this bot. (These strategies are not back date tested for making money on so beware before using the bot :) ).
+**Strategies** I have written two simple strategies for this bot. (These strategies are not back date tested for making money on so beware before using the bot :) ).These classes create a buy or sell triggers and provide buy/sell price, target price and stop loss for each of the stock.
 
-**Aplaca API** Alpaca is the 
+**Aplaca API** Alpaca provides a commission free trading platform. They support their official python API for algorithmic trading. They also provide platform for paper trading (which I have used for development). The bot places orders using the triggers and the prices provided by strategies.
+**Website** All the summary of orders placed for that day and the profit/loss for the day are published on the website powered by Django  
  
